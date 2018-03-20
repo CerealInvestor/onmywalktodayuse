@@ -1,0 +1,84 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 451px) {
+    
+    /* Blog styles */
+	
+	.blogEntry {
+        width: 960px;
+        margin: 10px auto;
+        background-color: #FFF;
+	}
+    
+    .blogEntry .blogPost {
+        padding: 10px;
+    }
+	
+	.blogEntry .blogReadMore {
+	}
+	
+	.blogEntry .blogReadMore a:link,
+	.blogEntry .blogReadMore a:visited,
+	.blogEntry .blogReadMore a:hover,
+	.blogEntry .blogReadMore a:active{
+		text-decoration: none;
+	}
+	
+	.blogEntry .blogReadMore a:hover {
+		background-color: #FFF;
+		color: #1FA3E7;
+	}
+	
+	.blogEntry img {
+		float: left;
+		margin: 0px 20px 0px 0px;
+	}
+	
+	.blogEntry h2 {
+		color: #1FA3E7;
+	}
+	
+	.blogError {
+		border: 5px solid #F00;
+		padding: 20px 40px;
+	}
+    
+    .blogFeatured {
+        
+    }
+    
+    .blogFeatured h1 {
+        float: left;
+        width: 320px;
+        padding: 10px 5px;
+        background-color: #F00;
+        color: #FFF;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .blogFeatured h2 {
+        margin: 0px;
+        padding: 0px
+    }
+    
+    .blogFeatured img {
+        width: 400px;
+        float: left;
+        margin: 0px 10px 0px 0px;
+    }
+}
